@@ -67,8 +67,6 @@ open class PagingMenuController: UIViewController {
         super.init(nibName: nil, bundle: nil)
         
         setup(options)
-        view.setNeedsLayout()
-        view.layoutIfNeeded()
     }
     
     required public init?(coder aDecoder: NSCoder) {
